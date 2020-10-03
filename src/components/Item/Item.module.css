@@ -1,0 +1,68 @@
+.ItemWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+
+    min-height: 60px;
+    max-width: 750px;
+
+    background: #ffffff;
+
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+
+    border-radius: 6px;
+
+    margin: 0 auto 10px auto;
+    padding: 10px 20px;
+}
+
+.Item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+/* 
+    min-height: 60px;
+    max-width: 750px;
+
+    background: #ffffff;
+
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+
+    border-radius: 6px; */
+
+    /* margin: 0 auto 10px auto; */
+}
+
+.Item > div {
+    flex-grow: 1;
+}
+
+.Quantity {
+    display: flex;
+    align-items: center;
+}
+
+.Quantity span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #D6D9E4;
+
+    margin: 0 5px;
+}
+
+.QuantityHandler {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+
+    .Quantity button {
+        height: 21px;
+        width: 21px;
+    }
+
+    .DateNameWrapper {
+        max-width: 150px;
+    }
+}

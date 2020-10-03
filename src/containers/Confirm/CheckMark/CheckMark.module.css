@@ -1,0 +1,15 @@
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: .1; }
+    100% { transform: translateY(15px); opacity: 1;}
+  }
+
+.CheckMark {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+}

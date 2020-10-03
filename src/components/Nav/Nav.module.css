@@ -1,0 +1,24 @@
+.Nav {
+    display: flex;
+    justify-content: center;
+
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #613EEA;
+}
+
+.totalPrice {
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
